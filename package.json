@@ -1,0 +1,28 @@
+{
+  "name": "checkpoint",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Checkpoint! — airport security queue sim prototype",
+  "packageManager": "pnpm@10.30.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "sim": "tsx scripts/simulate.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "eslint": "^10.4.1",
+    "prettier": "^3.8.4",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.0",
+    "vite": "^8.0.16"
+  }
+}
